@@ -14,12 +14,16 @@ window.config = {
     },
     {
       title: 'GitHub',
-      link: 'https://github.com/stilleshan/subweb',
+      link: 'https://github.com/chenzai666/subweb',
       target: '_blank',
     },
   ],
   // 远程配置地址,可以自行按照格式添加。
   remoteConfigOptions: [
+    {
+      value: 'https://raw.githubusercontent.com/chenzai666/sub-ini/refs/heads/main/tsutsu-full.ini',
+      text: 'ACL4SSR Online chenzai666',
+    },
     {
       value: 'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini',
       text: 'ACL4SSR Online',
